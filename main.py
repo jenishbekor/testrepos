@@ -7,3 +7,7 @@ if __name__ == '__main__':
 
     person2 = Person('CCC', 'dddd')
     person2.info()
+
+
+    p = Person('aaa', 'ccc')
+    p.info()
