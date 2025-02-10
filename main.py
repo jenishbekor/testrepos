@@ -10,6 +10,8 @@ if __name__ == '__main__':
     if(  MathUtil.is_even(24) ):
         print('It is even number')
 
+        print('hello')
+
 
 
 
