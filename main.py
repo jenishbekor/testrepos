@@ -1,13 +1,15 @@
 from person import Person
 
+from mathutil import MathUtil
+
 if __name__ == '__main__':
 
-    person1 = Person('Aaaa', 'Bbbb', age=25)
-    person1.info()
+    print( MathUtil.is_prime(26)  )
+    print( MathUtil.is_prime(29) )
 
-    person2 = Person('CCC', 'dddd')
-    person2.info()
+    if(  MathUtil.is_even(24) ):
+        print('It is even number')
 
 
-    p = Person('aaa', 'ccc')
-    p.info()
+
+
